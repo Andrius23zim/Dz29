@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="categories">
+        <h2>Каталог категорий:</h2>
+        <ul>
+          <li onclick="handleCategoryClick('Category 1')">Category 1</li>
+          <li onclick="handleCategoryClick('Category 2')">Category 2</li>
+          <li onclick="handleCategoryClick('Category 3')">Category 3</li>
+        </ul>
+      </div>
+    
+      <div class="product-list">
+        <h2>Продукт лист:</h2>
+        <ul id="productList"></ul>
+      </div>
+    
+      <div class="product-details">
+        <h2>Детели:</h2>
+        <p id="productDetails"></p>
+        <button id="buyButton" onclick="handleBuyClick()">Купить</button>
+        <div id="notification" class="notification" style="display: none;">
+          <p>Товар успешно куплен!</p>
+          <button onclick="handleBackToCategories()">Вернуться в котегории</button>
+        </div>
+      </div>
+    
+
+      <script src="./assets/js/app.js"></script>
+
+</body>
+</html>

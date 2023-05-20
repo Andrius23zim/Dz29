@@ -1,0 +1,35 @@
+
+
+.categories {
+    float: left;
+    width: 25%;
+ 
+  }
+
+  .product-list {
+    float: left;
+    width: 25%;
+  }
+
+  .product-details {
+    float: left;
+    width: 50%;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+
+  .notification {
+    margin-top: 20px;
+  }
